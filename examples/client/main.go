@@ -7,16 +7,16 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/cloudwebrtc/go-sip-ua/examples/mock"
-	"github.com/cloudwebrtc/go-sip-ua/pkg/account"
-	"github.com/cloudwebrtc/go-sip-ua/pkg/media/rtp"
-	"github.com/cloudwebrtc/go-sip-ua/pkg/session"
-	"github.com/cloudwebrtc/go-sip-ua/pkg/stack"
-	"github.com/cloudwebrtc/go-sip-ua/pkg/ua"
-	"github.com/cloudwebrtc/go-sip-ua/pkg/utils"
 	"github.com/ghettovoice/gosip/log"
 	"github.com/ghettovoice/gosip/sip"
 	"github.com/ghettovoice/gosip/sip/parser"
+	"github.com/inilotic/go-sip-ua/examples/mock"
+	"github.com/inilotic/go-sip-ua/pkg/account"
+	"github.com/inilotic/go-sip-ua/pkg/media/rtp"
+	"github.com/inilotic/go-sip-ua/pkg/session"
+	"github.com/inilotic/go-sip-ua/pkg/stack"
+	"github.com/inilotic/go-sip-ua/pkg/ua"
+	"github.com/inilotic/go-sip-ua/pkg/utils"
 )
 
 var (
